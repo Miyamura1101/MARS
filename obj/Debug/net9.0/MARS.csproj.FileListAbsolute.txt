@@ -1,0 +1,14 @@
+E:\C#\MARS\bin\Debug\net9.0\MARS.exe
+E:\C#\MARS\bin\Debug\net9.0\MARS.deps.json
+E:\C#\MARS\bin\Debug\net9.0\MARS.runtimeconfig.json
+E:\C#\MARS\bin\Debug\net9.0\MARS.dll
+E:\C#\MARS\bin\Debug\net9.0\MARS.pdb
+E:\C#\MARS\obj\Debug\net9.0\MARS.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\MARS\obj\Debug\net9.0\MARS.AssemblyInfoInputs.cache
+E:\C#\MARS\obj\Debug\net9.0\MARS.AssemblyInfo.cs
+E:\C#\MARS\obj\Debug\net9.0\MARS.csproj.CoreCompileInputs.cache
+E:\C#\MARS\obj\Debug\net9.0\MARS.dll
+E:\C#\MARS\obj\Debug\net9.0\refint\MARS.dll
+E:\C#\MARS\obj\Debug\net9.0\MARS.pdb
+E:\C#\MARS\obj\Debug\net9.0\MARS.genruntimeconfig.cache
+E:\C#\MARS\obj\Debug\net9.0\ref\MARS.dll
