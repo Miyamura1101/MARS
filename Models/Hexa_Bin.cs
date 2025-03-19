@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
-using System.Threading.Tasks;
 
 namespace MARS.Models
 {
@@ -10,26 +9,24 @@ namespace MARS.Models
     {
         public static void MARS()
         {
-            string marsPath = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // Caminho do MARS
+            string marsPath = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // MARS
             string asmFile = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Hexa_Bin.asm"; // Arquivo ASM
 
-            // Comando para executar MARS
-            string arguments = $"\"{asmFile}\""; // Aspas para evitar erros com espaços no caminho
+            string arguments = $"\"{asmFile}\""; 
 
-            // Criando o processo para executar o MARS
             ProcessStartInfo psi = new ProcessStartInfo
             {
                 FileName = "java",
                 Arguments = $"-jar \"{marsPath}\" {arguments}",
-                RedirectStandardOutput = true,  // Captura saída
-                RedirectStandardError = true,   // Captura erros
+                RedirectStandardOutput = true,  // Saída
+                RedirectStandardError = true,   // Erros
                 UseShellExecute = false,
-                CreateNoWindow = true
+                CreateNoWindow = false
             };
 
             try
             {
-                using (Process? process = Process.Start(psi)) // Permite valores nulos para evitar warnings
+                using (Process? process = Process.Start(psi))
                 {
                     if (process == null)
                     {
