@@ -5,12 +5,11 @@ using System.Diagnostics;
 
 namespace MARS.Models
 {
-    public class Hexa_Bin
+    public class MARS
     {
-        public static void MARS()
+        public static void Conversao(string asmFile)
         {
             string marsPath = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // MARS
-            string asmFile = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Hexa_Bin.asm"; // Arquivo ASM
 
             string arguments = $"\"{asmFile}\""; 
 
