@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
 
-namespace MARS.Models
+namespace MARS.Models.Conversao
 {
     public class Binario
     {

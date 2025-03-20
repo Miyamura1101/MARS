@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-using MARS.Models;
+namespace MARS.Models.Conversao;
 public class MarsExecutor
 {
     static void Main()

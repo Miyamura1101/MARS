@@ -4,7 +4,7 @@ using System.Linq;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace MARS.Models
+namespace MARS.Models.Conversao
 {
     public class Octal
     {
