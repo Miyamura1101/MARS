@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace MARS.Models
@@ -18,18 +19,18 @@ namespace MARS.Models
                 {
                     string[] linhas = File.ReadAllLines(saida);
 
-                    using (StreamWriter writer = new StreamWriter(dados, false))
-                    {
-                        foreach (string linha in linhas)
-                        {
-                            string Limpo = linha.Replace(" ", " ");
+                    using StreamWriter writer = new StreamWriter(dados, false);
 
-                            if (!string.IsNullOrEmpty(Limpo))
-                            {
-                                writer.WriteLine(Limpo);
-                            }
+                    foreach (string linha in linhas)
+                    {
+                        linha.Replace(" ", "");
+
+                        if (!string.IsNullOrEmpty(linha))
+                        {
+                            writer.WriteLine(linha);
                         }
                     }
+
                 }
                 else
                 {
