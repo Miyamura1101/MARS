@@ -7,6 +7,6 @@ public class MarsExecutor
 {
     static void Main()
     {
-        Decimal_1.DecimalHexa();
+        Decimal_1.Decimal_Hexa();
     }
 }

@@ -7,20 +7,20 @@ namespace MARS.Models.Conversao
 {
     public class Hexa
     {
-        public static void HexaBin()
+        public static void Hexa_Bin()
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Hexa_Bin.asm";
             MARS.Conversao(url);
         }
-        public static void HexaDecimal()
+        public static void Hexa_Decimal()
         {
-            HexaBin();
+            Hexa_Bin();
             Arquivos.Arquivo();
             Binario.Bin_Decimal();
         }
-        public static void HexaOctal()
+        public static void Hexa_Octal()
         {
-            HexaBin();
+            Hexa_Bin();
             Arquivos.Arquivo();
             Binario.Bin_Octal();
         }
