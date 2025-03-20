@@ -7,16 +7,16 @@ namespace MARS.Models
 {
     public class MARS
     {
-        public static void Conversao(string asmFile)
+        public static void Conversao(string ArquivoAsm)
         {
-            string marsPath = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // MARS
+            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // MARS
 
-            string arguments = $"\"{asmFile}\""; 
+            string arguments = $"\"{ArquivoAsm}\""; 
 
             ProcessStartInfo psi = new ProcessStartInfo
             {
                 FileName = "java",
-                Arguments = $"-jar \"{marsPath}\" {arguments}",
+                Arguments = $"-jar \"{PastaMARS}\" {arguments}",
                 RedirectStandardOutput = true,  // Saída
                 RedirectStandardError = true,   // Erros
                 UseShellExecute = false,
