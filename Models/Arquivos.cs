@@ -17,20 +17,12 @@ namespace MARS.Models
             {
                 if (File.Exists(saida))
                 {
-                    string[] linhas = File.ReadAllLines(saida);
+                    string conteudo = File.ReadAllText(saida);
 
-                    using StreamWriter writer = new StreamWriter(dados, false);
-
-                    foreach (string linha in linhas)
+                    if (int.TryParse(conteudo, out int numero))
                     {
-                        linha.Replace(" ", "");
-
-                        if (!string.IsNullOrEmpty(linha))
-                        {
-                            writer.WriteLine(linha);
-                        }
+                        File.WriteAllText(dados, numero.ToString());
                     }
-
                 }
                 else
                 {
