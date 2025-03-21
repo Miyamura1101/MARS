@@ -8,7 +8,7 @@ namespace MARS.Models
 {
     public class EntradaPadrao
     {
-        public static string Float(string url, float num1, float num2)
+        public static string MARS(string url, float num1, float num2)
         {
             string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar";
 
@@ -40,6 +40,7 @@ namespace MARS.Models
                 }
 
                 string output = process.StandardOutput.ReadToEnd();
+                Console.WriteLine(output);
                 return output;
             }
         } 
