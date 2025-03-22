@@ -9,7 +9,6 @@ public class MarsExecutor
 {
     static void Main()
     {
-        Divisão_F.operacao(0.5f, 10.0f);
-
+        Console.WriteLine(Soma_I.Operacao(10, 10));
     }
 }

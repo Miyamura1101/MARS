@@ -7,7 +7,7 @@ namespace MARS.Models.Operações.Inteiro
 {
     public class Diminuição_I
     {
-        public static void operacao(float num1, float num2)
+        public static void operacao(int num1, int num2)
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Operações/Subtração_I.asm";
             EntradaPadrao.MARS(url, num1, num2);
