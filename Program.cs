@@ -10,7 +10,7 @@ public class MarsExecutor
 {
     static void Main()
     {
-        Console.WriteLine(Celsius_Kelvin.Operacao(50.0f));
+        Console.WriteLine(Kelvin_Fahrenheit.Operacao(50.0f));
         // Console.WriteLine(Soma_F.Operacao(10.0f, 123.1f));
     }
 }
