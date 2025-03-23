@@ -7,20 +7,20 @@ namespace MARS.Models.Conversao
 {
     public class Binario
     {
-        public static void Bin_Decimal()
+        public static string Bin_Decimal(string numero)
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Bin_Decimal.asm";
-            MARS.Conversao(url);
+            return EntradaPadrao.MARS(url, numero);
         }
-        public static void Bin_Octal()
+        public static string Bin_Octal(string numero)
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Bin_Octal.asm";
-            MARS.Conversao(url);
+            return EntradaPadrao.MARS(url, numero);
         }
-        public static void Bin_Hexa()
+        public static string Bin_Hexa(string numero)
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Bin_Hexa.asm";
-            MARS.Conversao(url);
+            return EntradaPadrao.MARS(url, numero);
         }
     }
 }

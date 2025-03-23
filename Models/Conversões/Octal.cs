@@ -8,22 +8,20 @@ namespace MARS.Models.Conversao
 {
     public class Octal
     {
-        public static void Octal_Bin()
+        public static string Octal_Bin(string numero)
         {
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Octal_bin.asm";
-            MARS.Conversao(url);
+            return EntradaPadrao.MARS(url, numero);
         }
-        public static void Octal_Decimal()
+        /*public static void Octal_Decimal()
         {
             Octal_Bin();
             Arquivos.Arquivo();
             Binario.Bin_Decimal();
-        }
-        public static void Octal_Hexa()
+        }*/
+        public static string Octal_Hexa(string numero)
         {
-            Octal_Bin();
-            Arquivos.Arquivo();
-            Binario.Bin_Hexa();
+            return Binario.Bin_Hexa(Octal_Bin(numero));
         }
     }
 }

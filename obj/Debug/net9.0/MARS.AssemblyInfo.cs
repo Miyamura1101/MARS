@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MARS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3df8027ee55ffd6ceb57e86f3d15668fd43ae297")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c113b17693d5ba36aae4a3a7648723e36cbb39b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MARS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MARS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
