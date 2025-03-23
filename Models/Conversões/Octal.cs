@@ -13,12 +13,10 @@ namespace MARS.Models.Conversões
             string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Octal_bin.asm";
             return EntradaPadrao.MARS(url, numero);
         }
-        /*public static void Octal_Decimal()
+        public static string Octal_Decimal(string numero)
         {
-            Octal_Bin();
-            Arquivos.Arquivo();
-            Binario.Bin_Decimal();
-        }*/
+            return Binario.Bin_Decimal(Octal_Bin(numero));
+        }
         public static string Octal_Hexa(string numero)
         {
             return Binario.Bin_Hexa(Octal_Bin(numero));
