@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MARS.Models.Conversao
+namespace MARS.Models.Conversões
 {
     public class Decimal_1
     {

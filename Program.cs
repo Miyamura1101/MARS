@@ -5,7 +5,7 @@ using System.IO;
 using MARS.Models.Operações.Float;
 using MARS.Models.Temperatura;
 using MARS.Models.Operações.Inteiro;
-using MARS.Models.Conversao;
+using MARS.Models.Conversões;
 public class MarsExecutor
 {
     static void Main()
