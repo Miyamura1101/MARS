@@ -13,6 +13,6 @@ public class MarsExecutor
         // Console.WriteLine(Kelvin_Fahrenheit.Operacao(50.0f));
         // Console.WriteLine(Soma_F.Operacao(10.0f, 123.1f));
 
-        Console.WriteLine(Decimal_1.Decimal_Bin("379"));
+        Console.WriteLine(Binario.Bin_Hexa("100000000000"));
     }
 }
