@@ -9,7 +9,7 @@ namespace MARS.Models.Conversões
     {
         public static string Hexa_Bin(string numero)
         {
-            string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Hexa_Bin.asm";
+            string url = @"C:/Trabalho de OAC/Hexa_Bin.asm";
             return EntradaPadrao.MARS(url, numero);
         }
         public static string Hexa_Decimal(string numero)

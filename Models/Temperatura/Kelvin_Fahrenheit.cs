@@ -9,7 +9,7 @@ namespace MARS.Models.Temperatura
     {
         public static string Operacao(float num1)
         {
-            string url = @"C:\Users\felip\Documents\UFS\4 - Quarto Periodo\OAC\Trabalho de OAC\Temperatura\Kelvin_fahrenheit.asm";
+            string url = @"C:/Trabalho de OAC/Temperatura/Kelvin_fahrenheit.asm";
             return EntradaPadrao.MARS(url, num1);
         }         
     }

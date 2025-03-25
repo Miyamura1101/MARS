@@ -10,7 +10,7 @@ namespace MARS.Models.Conversões
     {
         public static string Octal_Bin(string numero)
         {
-            string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Octal_bin.asm";
+            string url = @"C:/Trabalho de OAC/Octal_bin.asm";
             return EntradaPadrao.MARS(url, numero);
         }
         public static string Octal_Decimal(string numero)

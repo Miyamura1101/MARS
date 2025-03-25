@@ -9,7 +9,7 @@ namespace MARS.Models.Operações.Inteiro
     {
         public static float Operacao(int num1, int num2)
         {
-            string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Operações/Soma_I.asm";
+            string url = @"C:/Trabalho de OAC/Operações/Soma_I.asm";
             return EntradaPadrao.MARS(url, num1, num2);
         } 
     }

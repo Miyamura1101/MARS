@@ -9,7 +9,7 @@ namespace MARS.Models.Operações.Float
     {
         public static float Operacao(float num1, float num2)
         {
-            string url = @"C:/Users/felip/Documents/UFS/4 - Quarto Periodo/OAC/Trabalho de OAC/Operações/Multiplicação_F.asm";
+            string url = @"C:/Trabalho de OAC/Operações/Multiplicação_F.asm";
             return EntradaPadrao.MARS(url, num1, num2);
         } 
     }
