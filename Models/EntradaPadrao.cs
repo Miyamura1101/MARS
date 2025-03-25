@@ -12,7 +12,7 @@ namespace MARS.Models
 
         public static float MARS(string url, float num1, float num2)
         {
-            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar";
+            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar";  // Alterar para configuração da sua maquina
 
             ProcessStartInfo psi = new ProcessStartInfo
             {
@@ -56,7 +56,7 @@ namespace MARS.Models
 
         public static string MARS(string url, float num1)
         {
-            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar";
+            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // Alterar para configuração da sua maquina
 
             ProcessStartInfo psi = new ProcessStartInfo
             {
@@ -94,7 +94,7 @@ namespace MARS.Models
             
         public static string MARS(string url, string num1)
         {
-            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar";
+            string PastaMARS = @"C:/Users/felip/OneDrive/Área de Trabalho/Mars4_5.jar"; // Alterar para configuração da sua maquina
 
             ProcessStartInfo psi = new ProcessStartInfo
             {
