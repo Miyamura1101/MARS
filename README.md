@@ -1,6 +1,6 @@
 # Calculadora OAC
 
-Este projeto foi desenvolvido para a disciplina de Organização e Arquitetura de Computadores (OAC) e tem como objetivo a criação de uma calculadora utilizando Assembly com uma interface desenvolvida em C#. A interface se encontra no repositório [Calculadora_Interface](https://github.com/Miyamura1101/Calculadora_Interface), sendo necessário baixá-la para que o projeto funcione corretamente.
+Este projeto foi desenvolvido para a disciplina de Organização e Arquitetura de Computadores (OAC) e tem como objetivo a criação de uma calculadora utilizando Assembly, com uma interface desenvolvida em C#. A interface se encontra no repositório [Calculadora_Interface](https://github.com/Miyamura1101/Calculadora_Interface), sendo necessário baixá-la para que o projeto funcione corretamente.
 
 ## 📌 Requisitos
 
