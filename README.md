@@ -1,6 +1,6 @@
 # Calculadora OAC
 
-Este projeto foi desenvolvido para a disciplina de Organização e Arquitetura de Computadores (OAC) e tem como objetivo a criação de uma calculadora utilizando Assembly com uma interface desenvolvida em C#.
+Este projeto foi desenvolvido para a disciplina de Organização e Arquitetura de Computadores (OAC) e tem como objetivo a criação de uma calculadora utilizando Assembly com uma interface desenvolvida em C#. A interface se encontra no repositório [Calculadora_Interface]([URL_DO_REPOSITORIO](https://github.com/Miyamura1101/Calculadora_Interface)), sendo necessário baixá-la para que o projeto funcione corretamente.
 
 ## 📌 Requisitos
 
@@ -11,6 +11,7 @@ Para executar este projeto corretamente, você precisará dos seguintes requisit
 3. **Diretório correto** - A pasta `Trabalho de OAC` deve estar localizada em `C:\Trabalho de OAC` para que o código C# consiga encontrar os arquivos Assembly.
 4. **Configuração do caminho do MARS**:
    - No arquivo `Entrada Padrão.cs`, é necessário modificar os locais onde está referenciado o caminho do MARS, substituindo pelo caminho correto do MARS na sua máquina.
+5. **Baixe a interface**: Clone ou faça o download do repositório [Calculadora_Interface]([URL_DO_REPOSITORIO](https://github.com/Miyamura1101/Calculadora_Interface)).
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -28,5 +29,3 @@ Para executar este projeto corretamente, você precisará dos seguintes requisit
 Este projeto foi desenvolvido apenas para fins acadêmicos.
 
 ---
-Se houver dúvidas ou problemas, entre em contato ou consulte a documentação oficial do MARS para mais informações sobre sua configuração.
-
