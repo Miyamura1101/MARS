@@ -11,7 +11,7 @@ Para executar este projeto corretamente, você precisará dos seguintes requisit
 3. **Diretório correto** - A pasta `Trabalho de OAC` deve estar localizada em `C:\Trabalho de OAC` para que o código C# consiga encontrar os arquivos Assembly.
 4. **Configuração do caminho do MARS**:
    - No arquivo `Entrada Padrão.cs`, é necessário modificar os locais onde está referenciado o caminho do MARS, substituindo pelo caminho correto do MARS na sua máquina.
-5. **Baixe a interface**: Clone ou faça o download do repositório [Calculadora_Interface]([URL_DO_REPOSITORIO](https://github.com/Miyamura1101/Calculadora_Interface)).
+5. **Baixe a interface**: Clone ou faça o download do repositório [Calculadora_Interface](https://github.com/Miyamura1101/Calculadora_Interface).
 
 ## 🛠 Tecnologias Utilizadas
 
