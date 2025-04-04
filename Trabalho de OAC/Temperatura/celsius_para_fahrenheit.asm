@@ -7,9 +7,9 @@
 .globl main
 
 main:
-    li $v0, 6        # Syscall para leitura de número de ponto flutuante
+    li $v0, 6       
     syscall
-    mov.s $f1, $f0   # Movendo o valor lido para $f1 (Celsius)
+    mov.s $f1, $f0  
 
     l.s $f2, valor_mult   # Carregando o multiplicador (1.8) em $f2
     l.s $f3, valor_soma   # Carregando o valor de soma (32) em $f3
@@ -18,8 +18,8 @@ main:
 
     add.s $f4, $f4, $f3   # $f4 = $f4 + 32 (Resultado final)
 
-    li $v0, 2             # Syscall para imprimir valor de ponto flutuante
-    mov.s $f12, $f4       # Movendo o resultado para $f12 para impressão
+    li $v0, 2             
+    mov.s $f12, $f4       
     syscall
     
     li $v0, 10
