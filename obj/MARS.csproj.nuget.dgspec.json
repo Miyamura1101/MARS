@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\MARS\\MARS.csproj": {}
+    "E:\\Linguagens Programação\\C#\\MARS\\MARS.csproj": {}
   },
   "projects": {
-    "E:\\C#\\MARS\\MARS.csproj": {
+    "E:\\Linguagens Programação\\C#\\MARS\\MARS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\MARS\\MARS.csproj",
+        "projectUniqueName": "E:\\Linguagens Programação\\C#\\MARS\\MARS.csproj",
         "projectName": "MARS",
-        "projectPath": "E:\\C#\\MARS\\MARS.csproj",
+        "projectPath": "E:\\Linguagens Programação\\C#\\MARS\\MARS.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\MARS\\obj\\",
+        "outputPath": "E:\\Linguagens Programação\\C#\\MARS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
