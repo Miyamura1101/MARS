@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace MARS.Models.Temperatura
 {
-    public class Kelvin_Fahrenheit
+    public class Kelvin_Celsius
     {
         public static string Operacao(float num1)
         {
-            string url = @"C:/Trabalho de OAC/Temperatura/Kelvin_fahrenheit.asm";
-            return EntradaPadrao.MARS(url, num1);
-        }         
+            string url = @"C:/Trabalho de OAC/Temperatura/Kelvin_Celsius.asm";
+            return IntegracaoAssembly.MARS(url, num1);
+        }        
     }
 }

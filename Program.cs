@@ -2,9 +2,8 @@
 using System.Diagnostics;
 using System.IO;
 
-using MARS.Models.Operações.Float;
+using MARS.Models.Operações;
 using MARS.Models.Temperatura;
-using MARS.Models.Operações.Inteiro;
 using MARS.Models.Conversões;
 public class MarsExecutor
 {
