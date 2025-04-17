@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace MARS.Models
 {
-    public class EntradaPadrao
+    public class IntegracaoAssembly
     {
 
         public static float MARS(string url, float num1, float num2)

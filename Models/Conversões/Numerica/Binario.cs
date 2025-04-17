@@ -10,17 +10,17 @@ namespace MARS.Models.Conversões
         public static string Bin_Decimal(string numero)
         {
             string url = @"C:/Trabalho de OAC/Bin_Decimal.asm";
-            return EntradaPadrao.MARS(url, numero);
+            return IntegracaoAssembly.MARS(url, numero);
         }
         public static string Bin_Octal(string numero)
         {
             string url = @"C:/Trabalho de OAC/Bin_Octal.asm";
-            return EntradaPadrao.MARS(url, numero);
+            return IntegracaoAssembly.MARS(url, numero);
         }
         public static string Bin_Hexa(string numero)
         {
             string url = @"C:/Trabalho de OAC/Bin_Hexa.asm";
-            return EntradaPadrao.MARS(url, numero);
+            return IntegracaoAssembly.MARS(url, numero);
         }
     }
 }

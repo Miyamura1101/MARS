@@ -10,7 +10,7 @@ namespace MARS.Models.Temperatura
         public static string Operacao(float num1)
         {
             string url = @"C:/Trabalho de OAC/Temperatura/celsius_para_fahrenheit.asm";
-            return EntradaPadrao.MARS(url, num1);
+            return IntegracaoAssembly.MARS(url, num1);
         } 
     }
 }

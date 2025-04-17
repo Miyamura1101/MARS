@@ -11,7 +11,7 @@ namespace MARS.Models.Conversões
         public static string Octal_Bin(string numero)
         {
             string url = @"C:/Trabalho de OAC/Octal_bin.asm";
-            return EntradaPadrao.MARS(url, numero);
+            return IntegracaoAssembly.MARS(url, numero);
         }
         public static string Octal_Decimal(string numero)
         {
